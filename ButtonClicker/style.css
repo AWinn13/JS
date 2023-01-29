@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Balsamiq Sans', cursive;
+    
+    
+}
+
+.nav {
+    margin: 0 auto;
+    background-color: rgb(124, 124, 124);
+    width: fit-content;
+
+}
+
+.navcontent{
+    height:  75px;
+    width: 1000px;
+    background-color: rgb(124, 124, 124);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto
+}
+
+.search{
+    height: 40px;
+    width: 300px;
+    border: 2px solid black;
+    margin-right: 25px;
+    font-size: 1.2rem;
+}
+
+.login{
+    height: 40px;
+    width: 100px ;
+    margin-right: 25px;
+    font-size: 1.2rem;
+    background-color: cornflowerblue;
+    box-shadow: 2px 2px 2px black;
+
+}
+
+.head {
+    font-size: 2.5rem;
+    margin-left: 25px;
+}
+
+
+
+/* LEFT COLUMN */
+.main{
+
+    height: 500px;
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 30px;
+
+}
+
+.box{
+    background-color: aliceblue;
+    height:200px;
+    width: 600px;
+    border: 3px solid rgb(49, 49, 49);
+    margin-bottom: 15px;
+    display: flex;
+    
+    
+    
+}
+.box-content {
+    display: flex;
+    margin: 0 auto;
+    align-items:baseline;
+    margin-left: 10px;
+    margin-top: 25px;
+    
+}
+
+.left-box {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.5rem;
+}
+.like {
+    background-color: gold;
+    height: 30px;
+    width: 60px;
+    margin-top: 15px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.definition{
+    margin-left: 25px;
+    font-size: 1.3rem;
+}
+
+
+
+/* RIGHT COLUMN */
+.box2 {
+    background-color: aliceblue;
+    height:150px;
+    width: 300px;
+    margin: 0 auto;
+    border: 3px solid rgb(49, 49, 49);
+    margin-left: 100px;
+    font-size: 1.5rem ;
+    
+
+}
+.def-button{
+    font-weight: bolder;
+    background-color: mediumseagreen ;
+    height: 30px;
+    width: 250px;
+    margin-top: 15px;
+    font-size: 1.0rem;
+    box-shadow: 2px 2px 2px black;
+}
+
+.box2-content {
+    margin-left: 15px;
+    margin-top: 15px;
+}

@@ -9,11 +9,11 @@ function add1(){
 
 function add2(){
     count2++;
-    document.querySelector("#likes2").innerText = count + " Likes"
+    document.querySelector("#likes2").innerText = count2 + " Likes"
 }
 
 function add3(){
     count3++;
-    document.querySelector("#likes3").innerText = count + " Likes"
+    document.querySelector("#likes3").innerText = count3 + " Likes"
 }
 

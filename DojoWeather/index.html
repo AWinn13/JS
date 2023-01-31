@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1>DojoWeather</h1>
+        <div class="cities">
+            <h3 onclick="citynotice()">Seattle</h3>
+            <h3 onclick="citynotice()">Denver</h3>
+            <h3 onclick="citynotice()">New York</h3>
+        </div>    
+    </div>
+    <div class="currentcity">
+        <h2>Philadelphia</h2>
+        <h4>show temperature in</h4>
+        <select onchange="tempconv('#current')" name="tempconve" id="conversion">
+            <option value="celcius">C°</option>
+            <option value="fahrenheit">F°</option>
+        </select>
+    </div>
+    <div class="container">
+        <div class="box">
+            <h3>Today</h3>
+            <img src="assets/some_rain.png" alt="some rain" class="weatherpics">
+            <p>some rain</p>
+            <div class="temps">
+                <span class="highs" id="current1">8</span>
+                <span class="lows" id="current2">1</span>
+            </div>
+        </div>
+        <div class="box">
+            <h3>Today</h3>
+            <img src="assets/some_sun.png" alt="some sun" class="weatherpics">
+            <p>some sun</p>
+            <div class="temps">
+                <span class="highs"  id="current3">12</span>
+                <span class="lows" id="current4">8</span>
+            </div>
+        </div>
+        <div class="box">
+            <h3>Today</h3>
+            <img src="assets/some_clouds.png" alt="some rain" class="weatherpics">
+            <p>some rain</p>
+            <div class="temps">
+                <span class="highs" id="current5">2</span>
+                <span class="lows" id="current6">-3</span>
+            </div>
+        </div>
+        <div class="box">
+            <h3>Today</h3>
+            <img src="assets/some_sun.png" alt="some sun" class="weatherpics">
+            <p>some sun</p>
+            <div class="temps">
+                <span class="highs" id="current7">5</span>
+                <span class="lows" id="current8">1</span>
+            </div>
+        </div>
+    </div>
+    <div class="cookies">
+        <img src="assets/cookie.png" alt="cookie" class="cookieimg">
+        <div class="cookiecontent">
+            <p>Stop! Cookie time</p>
+            <p>We use cookies (sadly not the edible ones) to personalize <br> content and ads to provide social media features and to analyze our traffic</p>
+        </div>
+        <button onclick="eatcookie('.cookies')">I Accept</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

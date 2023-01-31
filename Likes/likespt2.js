@@ -1,4 +1,4 @@
 function add1(likesid){
-    document.querySelector(likesid).innerText++
+    document.querySelector(likesid).innerText++;
     
 }
